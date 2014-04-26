@@ -1,6 +1,8 @@
 Jekyll.Wordpress.Permalink.Redirect.Generator
 =============================================
 
+*This is a Windows (.Net 4.5) executable*
+
 If you import posts from Wordpress into your jekyll site you may need to redirect requests to `/index.php/2014/04/15/foo-bar` to your permalink format, in my case `/:year/:month/:day/:title/`. This assumes you can use the [jekyll-redirect-from gem](https://github.com/jekyll/jekyll-redirect-from) which is supported by GitHub pages.
 
 # Pre-Requisites
